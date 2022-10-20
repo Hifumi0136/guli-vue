@@ -268,7 +268,6 @@ export default {
 
         countNodeLevel(node) {
             console.log(node);
-            this.maxLevel = node.catLevel;
             if (node.childrenNodes != null && node.children.length > 0) {
                 for (let i = 0; i < node.children.length; ++i) {
                     if (node.children[i].level > this.maxLevel) {
