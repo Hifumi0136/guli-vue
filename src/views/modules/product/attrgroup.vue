@@ -163,7 +163,7 @@ export default {
             console.log("Id: ", data.catId);
             if (node.level == 3) {
                 this.catId = data.catId;
-                this.getDataList();
+                this.getDataList()
             }
         },
         // 获取数据列表
