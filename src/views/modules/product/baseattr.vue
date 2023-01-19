@@ -66,7 +66,7 @@
           </el-table-column>
           <el-table-column prop="enable" header-align="center" align="center" label="启用">
             <template slot-scope="scope">
-              <i class="el-icon-success" v-if="scope.row.enable==1"></i>
+              <i class="el-icon-success" v-if="scope.row.enable!=0"></i>
               <i class="el-icon-error" v-else></i>
             </template>
           </el-table-column>
